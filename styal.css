@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+body {
+	font-family: "DM Serif Display", serif;
+	font-weight: 400;
+	font-style: normal;
+	overflow-y: hidden;
+	background-color: rgb(201, 242, 177);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	opacity: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.inputBox {
+	padding: 10px;
+	box-shadow: 0 0 30px #99999955;
+	border-radius: 10px;
+	display: flex;
+}
+.changersBox {
+	display: flex;
+	gap: 5px;
+	flex-direction: column;
+}
+
+#inputYear {
+	font-family: "DM Serif Display", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10rem;
+	border: none;
+	width: 25rem;
+	background: transparent;
+}
+#inputYear:focus {
+	border: none;
+	outline: none;
+}
+#up {
+	font-family: "DM Serif Display", serif;
+	font-size: 5rem;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	filter: drop-shadow(10px 10px 4px #000000aa);
+}
+#up:hover {
+	filter: drop-shadow(0px 0px 4px #000000aa);
+}
+#down {
+	font-family: "DM Serif Display", serif;
+	font-size: 5rem;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	filter: drop-shadow(10px 10px 4px #000000aa);
+}
+#down:hover {
+	filter: drop-shadow(0px 0px 4px #000000aa);
+}
+#output {
+	font-size: 5rem;
+	max-width: 95vw;
+}
+
+.transformHolder {
+	font-family: "DM Serif Display", serif;
+	font-size: 3rem;
+	height: 50px;
+	width: 50px;
+	background: rgba(100, 200, 100, 0.3);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 65px;
+	margin: 5px;
+}
+
+.circle {
+	font-family: "DM Serif Display", serif;
+	font-size: 3rem;
+	height: 25px;
+	width: 25px;
+	background: rgba(100, 200, 100, 0.3);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 65px;
+}
+
+.transformContainer {
+	display: flex;
+	flex-direction: row;
+}
